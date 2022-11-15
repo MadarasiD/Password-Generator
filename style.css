@@ -61,9 +61,17 @@ h2 {
     width: 40px;
     height: 40px;
     font-size: 20px;
+    cursor: pointer;
 }
 
 .btn-large {
     display: block;
     width: 100%;
+}
+
+.setting {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0;
 }
