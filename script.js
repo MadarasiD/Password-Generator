@@ -22,13 +22,13 @@ generateEl.addEventListener('click', () => {
     const hasNumber = numbersEl.checked
     const hasSymbol = symbolEl.checked
 
-    resultEl.innerText = generatePAssword(hasLower, hasUpper, hasNumber, hasSymbol, length)
+    resultEl.innerText = generatePassword(hasLower, hasUpper, hasNumber, hasSymbol, length)
 })
 
-function generatePAssword(lower, upper, number, symbol, length) {
+function generatePassword(lower, upper, number, symbol, length) {
     let generatePAssword = ''
     const typesCount = lower + upper + number +symbol
-    console.log(typesCount)
+    const typesArray = [{lower}, {upper}, {number}, {symbol}]
 } 
 
 function getRandomLower() {
